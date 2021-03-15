@@ -45,4 +45,4 @@ const mapDispatchToProps = (dispatch) => {
     }, dispatch)
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(SnackDept);
+export default connect(mapStateToProps, mapDispatchToProps)(Person);
